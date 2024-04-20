@@ -9,7 +9,7 @@
 
 ####  Sumario:
 ####  Web site.
-####  El website provee de información importante, cómo lo es el trabajo por desarrollar, y así mismo una demo para mostrar las fases de gestión de incidentes, potenciadas por la asistencia de la API de open AI.
+####  El website provee de información importante, cómo lo es el trabajo por desarrollar, y así mismo una demostración de cómo manejamos las fases de gestión de incidentes, potenciadas por la asistencia e implementación real de la API de open AI.
 
 ####  Sistema de notificaciones.
 ####  Las notificaciones son desplegadas a través de código disponible en Reflex, desarrollado para un ambiente en Python, así como el resto de la demostración disponible en la página web.
