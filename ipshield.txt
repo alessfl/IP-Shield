@@ -1,6 +1,0 @@
-<<<<<<< HEAD
-Hola, es el txt
-
-=======
-IP shield 
->>>>>>> refs/remotes/origin/main
