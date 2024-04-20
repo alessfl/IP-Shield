@@ -10,13 +10,13 @@ load_dotenv()
 
 email_sender = "ipshieldsc@gmail.com"
 password = os.getenv("PASSWORD")
-email_reciver = "aless.flhe9@gmail.com"
+email_reciver = "aq.maurier@gmail.com"
 
 timezone = pytz.timezone('America/Mexico_City')
 hora_actual = datetime.datetime.now(tz=timezone)
 
 subject = "Security Alert. (3)"
-body = (f"Security Alert for aless.flhe9@gmail.com "
+body = (f"Security Alert for aq.maurier@gmail.com"
         "\n\nUnusual movements have been found within the learned parameters. "
         "\nSubject: Security Alert - DDoS alert to many request on instance "
         f"\n Many devices have tried to connect or generated a request in the last few minutes"
