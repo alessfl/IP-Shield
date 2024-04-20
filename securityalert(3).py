@@ -12,21 +12,21 @@ email_sender = "ipshieldsc@gmail.com"
 password = os.getenv("PASSWORD")
 email_reciver = "aless.flhe9@gmail.com"
 
-timezone = pytz.timezone('America/New_York')
+timezone = pytz.timezone('America/Mexico_City')
 hora_actual = datetime.datetime.now(tz=timezone)
 
 subject = "Security Alert. (3)"
 body = (f"Security Alert for aless.flhe9@gmail.com "
         "\n\nUnusual movements have been found within the learned parameters. "
-        "\nSubject: Security Alert - Suspicious Query Detected "
-        f"\nSuspicious activity has been detected in the Database. "
+        "\nSubject: Security Alert - DDoS alert to many request on instance "
+        f"\n Many devices have tried to connect or generated a request in the last few minutes"
         "\n\nDetails: "
         f"\n- Date and Time: {hora_actual.strftime('%Y-%m-%d %H:%M:%S')} \nSecurity Alert for {email_reciver}\n"
         f"- User: [{email_reciver}] "
-        "\n- Query Type: [Modification in the database [sensitive information]] "
+        "\n- Query Type: [Unusual network traffic] "
         "\n- Source IP: [172.28.144.228] "
         "\n\n\nImmediately contact trained security team to determine if additional action is required. "
-        "\n\n\nA database shutdown has been established. "
+        "\n\n\nVarious IPs may be blocked "
         "\n\n\n\n\n\nSincerely, "
         "\n[IP_Shield]")
 

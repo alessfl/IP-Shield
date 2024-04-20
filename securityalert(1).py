@@ -13,7 +13,7 @@ password = os.getenv("PASSWORD")
 email_reciver = "aless.flhe9@gmail.com"
 
 
-timezone = pytz.timezone('America/New_York')
+timezone = pytz.timezone('America/Mexico_City')
 hora_actual = datetime.datetime.now(tz=timezone)
 
 
